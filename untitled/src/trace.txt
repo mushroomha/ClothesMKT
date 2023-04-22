@@ -1,8 +1,10 @@
+day 1
 1. 在com.vince.bean文件夹下创建四个实体类，包括了用户、衣服、订单和订单明细。
 2. 在com.vince下创建utils工具类文件夹，包含了一个OrderStatusType的订单状态枚举类。
 3. 创建service, test, ui, res文件夹，再通过右键点击untitled，通过maven添加库junit.
 4. 创建r_temp.properties 和 run.bat脚本文件。注意设置.properties文件的编码方式为UTF-8
-5. 执行run.bat
-6.
-7.
-8.
+5. 执行run.bat,使用native2ascii.exe将非西方语系转换为java unicode escape(jdk9.0之后不存在了
+6. 创建BaseClass, 使用ResourceBundle寻找路径对应的.properties文件获取bundle
+Bundle(捆): 查找文件的函数，通常用于不同语言的后缀。一般是“自定义名_语言代码_国别代码.properties”
+如my_en_US.properties: cancelKey=cancel | my_zh_CN.properties=取消
+Resource.getBundle("res", new Locale("zh","CN")) 或 ("res",Locale.US)查找对应语言文件
