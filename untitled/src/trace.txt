@@ -1,8 +1,8 @@
 1. 在com.vince.bean文件夹下创建四个实体类，包括了用户、衣服、订单和订单明细。
 2. 在com.vince下创建utils工具类文件夹，包含了一个OrderStatusType的订单状态枚举类。
 3. 创建service, test, ui, res文件夹，再通过右键点击untitled，通过maven添加库junit.
-4.
-5.
+4. 创建r_temp.properties 和 run.bat脚本文件。注意设置.properties文件的编码方式为UTF-8
+5. 执行run.bat
 6.
 7.
 8.
