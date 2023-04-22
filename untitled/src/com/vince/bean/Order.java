@@ -3,7 +3,7 @@ package com.vince.bean;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import com.vince.uils.OrderStatusType;
+import com.vince.utils.OrderStatusType;
 
 public class Order implements Serializable {
     private int orderId;

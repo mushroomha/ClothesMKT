@@ -1,4 +1,4 @@
-package com.vince.uils;
+package com.vince.utils;
 
 public enum OrderStatusType {
     UNPAID,
