@@ -1,3 +1,6 @@
+day 2
+1.
+
 day 1
 1. 在com.vince.bean文件夹下创建四个实体类，包括了用户、衣服、订单和订单明细。
 2. 在com.vince下创建utils工具类文件夹，包含了一个OrderStatusType的订单状态枚举类。
