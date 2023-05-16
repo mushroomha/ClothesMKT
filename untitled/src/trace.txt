@@ -1,5 +1,8 @@
 day 2
-1.
+1. 在BaseClass类中添加一个User对象，便于缓存之后拿来直接用
+2. 在com.vince下创建MainClass作为程序启动类(直接输入psvm并回车可以快速生成主函数)
+3. 在com.vince.ui下创建WelcomeClass,作为进入程序的欢迎界面
+4. 通过WelcomeClass输出欢迎信息，注意调用println和getstring函数，并对输入的内容作出判断
 
 
 day 1
