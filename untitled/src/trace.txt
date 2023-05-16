@@ -3,6 +3,12 @@ day 2
 2. 在com.vince下创建MainClass作为程序启动类(直接输入psvm并回车可以快速生成主函数)
 3. 在com.vince.ui下创建WelcomeClass,作为进入程序的欢迎界面
 4. 通过WelcomeClass输出欢迎信息，注意调用println和getstring函数，并对输入的内容作出判断
+5. 创建ui下的RegisterClass,表示注册时向用户展示的界面
+6. 创建utils下的BusinessException,作为交易异常类
+7. 创建service下的UserService接口及实现
+8. 创建UserIO,用以将用户的信息写入到文件里保存,或读取
+9. 在RegisterClass和WelcomeClass中调用相关类的方法
+10.
 
 
 day 1

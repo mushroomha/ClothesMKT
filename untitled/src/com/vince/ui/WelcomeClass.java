@@ -1,5 +1,7 @@
 package com.vince.ui;
 
+import com.vince.utils.BusinessException;
+
 public class WelcomeClass extends BaseClass{
     public void start(){
         println(getString("info.welcome"));
@@ -16,7 +18,12 @@ public class WelcomeClass extends BaseClass{
 
                 case "2":
                     flag = false;
-                    System.out.println("注册");
+                    try {
+                        new RegisterClass().register();
+                        println(getString("reg.success"));
+                    }catch (BusinessException e){
+                        println(getString("reg.error"));
+                    }
                     break;
 
                 default:
