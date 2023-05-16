@@ -8,9 +8,9 @@ day 2
 7. 创建service下的UserService接口及实现
 8. 创建UserIO,用以将用户的信息写入到文件里保存,或读取
 9. 在RegisterClass和WelcomeClass中调用相关类的方法
-10. 创建LoginClass类，表示用户登录,在UserServiceImpl中增加新的方法Login
+10. 创建LoginClass类，表示用户登录,在UserServiceImpl中增加新的方法Login并实现
 11. 创建工具类EmptyUtils,判断字符串是否为空
-12.
+12. 在WelcomeClass中完成对login, register 服务的调用，并在start方法开头初始化UserIO实例，读取数据
 
 
 day 1
