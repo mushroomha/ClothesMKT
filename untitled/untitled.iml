@@ -8,5 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="junit" level="project" />
+    <orderEntry type="library" name="xpp3.xpp3_min" level="project" />
+    <orderEntry type="library" name="thoughtworks.xstream" level="project" />
   </component>
 </module>

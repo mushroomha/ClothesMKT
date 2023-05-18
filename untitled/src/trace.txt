@@ -1,3 +1,15 @@
+day 3
+1. 创建products.xml,存储商品数据
+2. 创建ProductsXmlUtils类，用于解析xml文件
+3. 引入xpp3和xstream包，方便引用相关的类
+4. 编写ProductsXmlUtils,包括读取和写入xml文件
+5. 创建测试类，使用上一条的类来读取xml文件内的数据信息并输出展现
+6.
+7.
+8.
+9.
+10.
+
 day 2
 1. 在BaseClass类中添加一个User对象，便于缓存之后拿来直接用
 2. 在com.vince下创建MainClass作为程序启动类(直接输入psvm并回车可以快速生成主函数)
