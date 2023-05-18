@@ -4,11 +4,11 @@ day 3
 3. 引入xpp3和xstream包，方便引用相关的类
 4. 编写ProductsXmlUtils,包括读取和写入xml文件
 5. 创建测试类，使用上一条的类来读取xml文件内的数据信息并输出展现
-6.
-7.
-8.
-9.
-10.
+6. 创建HomeClass类，用于向用户展示商品信息主页界面。在WelcomeClass的循环结束处添加其调用
+7. 下载ConsoleTable类，用于控制台表格样式生成
+8. 创建ClothesService接口并实现
+9. 在HomeClass类中调用ClothesService并添加数据到table后输出
+
 
 day 2
 1. 在BaseClass类中添加一个User对象，便于缓存之后拿来直接用

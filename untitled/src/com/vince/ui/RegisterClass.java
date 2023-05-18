@@ -13,6 +13,6 @@ public class RegisterClass extends BaseClass{
         String password = input.nextLine();
         User user = new User(username,password);
         UserService userService = new UserServiceImpl();
-        userService.register(user);
+        currUser = userService.register(user);
     }
 }
